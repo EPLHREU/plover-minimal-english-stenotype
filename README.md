@@ -1,6 +1,6 @@
 # Minimal English Stenotype
 
-> Plover system plugin with no automatic unfolding of orthography rules
+> Plover English stenotype system plug-in with no automatic unfolding of orthography rules
 
 One normally helpful feature of plover is it's ability to automatically unfold certain suffixes from a stroke. 
 This allows plover to recognise more condensed strokes for words that don't exist in the dictionary.
@@ -20,8 +20,8 @@ This final method may not be wanted, especially when using plover with other the
 This can make finding unassigned brief strokes more difficult, as you would have to search specifically through the dictionary rather than seeing untranslated raw steno output.
 Additionally, this can trip up the creation of briefs, especially in briefs heavy theories as they may not follow the same ideas that plover does.
 
-This plugin removes this automatic unfolding orthography from plover, allowing it to exactly follow entries specified in dictionary. 
+This plug-in removes this automatic unfolding orthography from plover, allowing it to exactly follow entries specified in dictionary. 
 
 ## Installation
 
-Install from the Plover plugin manager.
+Install through the Plover Plugins Manager.
