@@ -1,8 +1,18 @@
+# remove all the folding orthography stuff
+
+SUFFIX_KEYS = ()
+ORTHOGRAPHY_RULES = []
+ORTHOGRAPHY_RULES_ALIASES = {}
+ORTHOGRAPHY_WORDLIST = None
+
+
 KEYS = (
     '#',
-    'S-', 'T-', 'P-', 'H-', '*', '-F', '-P', '-L', '-T', '-D',
-          'K-', 'W-', 'R-',      '-R', '-B', '-G', '-S', '-Z'
-                  'A-', 'O-',  '-E', '-U',
+    'S-', 'T-', 'K-', 'P-', 'W-', 'H-', 'R-',
+    'A-', 'O-',
+    '*',
+    '-E', '-U',
+    '-F', '-R', '-P', '-B', '-L', '-G', '-T', '-S', '-D', '-Z',
 )
 
 IMPLICIT_HYPHEN_KEYS = ('A-', 'O-', '5-', '0-', '-E', '-U', '*')
